@@ -1,8 +1,8 @@
 # TinyTerminal - USB controlled OLED based on ATtiny85
 TinyTerminal is a simple USB controlled 128x64 pixels I2C OLED display. It uses [V-USB](https://www.obdev.at/products/vusb/index.html) to build a [USB communication device class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class) for serial communication via USB with the ATtiny. Text messages of all kinds can be sent via the USB interface and shown on the OLED display. The integrated buzzer gives an acoustic signal for every message received.
 
-![pic1.png](https://github.com/wagiminator/ATtiny85-TinyTerminal/blob/main/documentation/TinyTerminal_pic1.png)
-![pic2.png](https://github.com/wagiminator/ATtiny85-TinyTerminal/blob/main/documentation/TinyTerminal_pic2.png)
+![pic1.jpg](https://github.com/wagiminator/ATtiny85-TinyTerminal/blob/main/documentation/TinyTerminal_pic1.jpg)
+![pic2.jpg](https://github.com/wagiminator/ATtiny85-TinyTerminal/blob/main/documentation/TinyTerminal_pic2.jpg)
 
 # Hardware
 The schematic is shown below:
