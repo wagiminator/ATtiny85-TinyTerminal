@@ -30,11 +30,7 @@ Alternatively, the precompiled hex file can be uploaded:
 avrdude -c usbasp -p t85 -U lfuse:w:0xe1:m -U hfuse:w:0xdd:m -U efuse:w:0xff:m -U flash:w:TinyTerminal_t85_v1.0.hex
 ```
 
-The device will work under Linux out-of-the-box. Windows users need to install the Digistump drivers:
-
-```
-https://raw.githubusercontent.com/digistump/DigistumpArduino/master/tools/micronucleus-2.0a4-win.zip
-```
+The device will work under Linux out-of-the-box. Windows users need to install the [Digistump drivers](https://raw.githubusercontent.com/digistump/DigistumpArduino/master/tools/micronucleus-2.0a4-win.zip).
 
 To test the device you can open the Serial Monitor of the Arduino IDE and send a message. With Linux the port is usually /dev/ttyACM0. You can also send a message via a Terminal:
 
