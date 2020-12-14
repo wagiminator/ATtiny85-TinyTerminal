@@ -27,7 +27,7 @@ The communication via USB is handled by the V-USB software-only implementation o
 Alternatively, the precompiled hex file can be uploaded:
 
 ```
-avrdude -c usbasp -p t85 -U lfuse:w:0xe1:m -U hfuse:w:0xdd:m -U efuse:w:0xff:m -U flash:w:TinyTerminal_t85_v1.0.hex
+avrdude -c usbasp -p t85 -U lfuse:w:0xe1:m -U hfuse:w:0xdd:m -U efuse:w:0xff:m -U flash:w:TinyTerminal_t85.hex
 ```
 
 The device will work under Linux out-of-the-box. Windows users need to install the [Digistump drivers](https://raw.githubusercontent.com/digistump/DigistumpArduino/master/tools/micronucleus-2.0a4-win.zip).
